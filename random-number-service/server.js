@@ -1,9 +1,6 @@
 var express = require('express');
 var crypto = require('crypto');
 
-var PORT = 8080;
-
-
 var app = express();
 
 app.get('/', function (req, res) {
@@ -14,5 +11,5 @@ app.get('/', function (req, res) {
 
 });
 
-app.listen(PORT);
+app.listen(8080);
 
