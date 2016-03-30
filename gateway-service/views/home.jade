@@ -1,0 +1,30 @@
+html
+  head
+    title=title
+    link(href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css', rel='stylesheet')
+    link(href='static/css/flat-ui.css', rel='stylesheet')
+    link(href='static/css/style.css', rel='stylesheet')
+    link(href='static/css/style.complete.css', rel='stylesheet')
+    script(type='text/javascript', src='static/js/application.js')
+    script(type='text/javascript', src='static/js/jquery-1.8.3.min.js')
+ body
+    #page.page
+      // Start Content Block 1-4
+      section#content-1-4.content-block-nopad.content-1-4
+        .image-container.col-md-5.col-sm-3.pull-left
+          .background-image-holder
+          // Background Image
+        .container
+          .row
+            .col-md-6.col-md-offset-6.col-sm-8.col-sm-offset-4.content.clearfix
+              .editContent
+                h3 Generate a random string from a service
+              .editContent
+                a.button.btn.btn-success(href='/number') Generate
+              .row.pad45
+                .col-sm-8
+                  .editContent
+                    p
+                      | The value from the random string will be used to generate a unique icon.
+
+

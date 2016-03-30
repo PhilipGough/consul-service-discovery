@@ -1,0 +1,13 @@
+{
+  "name": "docker-node-service-discovery-gateway",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A gateway to discovery services through Consul",
+  "author": "Philip Gough <philip.p.gough@gmail.com>",
+  "dependencies": {
+    "express": "latest",
+    "jade": "^1.11.0",
+    "native-dns": "latest",
+    "request": "latest"
+  }
+}
